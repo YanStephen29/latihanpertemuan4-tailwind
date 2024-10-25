@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script>
+                tailwind.config = {
+                theme: {
+                    extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                    }
+                }
+                }
+            </script>
+            <style type="text/tailwindcss">
+                @layer utilities {
+                .content-auto {
+                    content-visibility: auto;
+                }
+                }
+            </style>
+            <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    </head>
+    <body class="bg-white text-gray-800 font-sans">
+
+        <header class="bg-blue-900 text-white py-4 border-b-4 border-blue-600">
+            <div class="flex items-center justify-center space-x-3">
+                <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 rounded-full shadow-md">
+                <h1 class="text-3xl font-bold tracking-wider">Naposo HKBP Srengseng Sawah</h1>
+            </div>
+            <nav class="mt-4">
+                <ul class="flex justify-center space-x-6">
+                    <li><a href="index.html" class="hover:bg-blue-600 py-2 px-3 rounded transition">Home</a></li>
+                    <li><a href="about.html" class="hover:bg-blue-600 py-2 px-3 rounded transition">About</a></li>
+                    <li><a href="contact.html" class="hover:bg-blue-600 py-2 px-3 rounded transition">Contact</a></li>
+                    <li><a href="join.html" class="hover:bg-blue-600 py-2 px-3 rounded transition">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="flex flex-col lg:flex-row p-5 max-w-5xl mx-auto space-y-5 lg:space-y-0 lg:space-x-5">
+    
+            <aside class="bg-gray-200 rounded-lg p-5 shadow-md w-full lg:w-1/4">
+                <h2 class="text-blue-900 text-lg font-bold mb-4">Event Mingguan</h2>
+                <ul class="space-y-3">
+                    <li><a href="ibadah-minggu.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Ibadah Minggu</a></li>
+                    <li><a href="latihan-paduan-suara.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Paduan Suara</a></li>
+                    <li><a href="badminton.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Badminton</a></li>
+                </ul>
+    
+                <h2 class="text-blue-900 text-lg font-bold mt-6 mb-4">Event Tahunan</h2>
+                <ul class="space-y-3">
+                    <li><a href="retreat.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Retreat</a></li>
+                    <li><a href="perayaan-natal.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Perayaan Natal</a></li>
+                    <li><a href="kebaktian-padang.html" class="block text-gray-800 hover:bg-blue-600 hover:text-white px-4 py-2 rounded">Kebaktian Padang</a></li>
+                </ul>
+    
+                <h2 class="text-blue-900 text-lg font-bold mt-6 mb-4"><a href="commite.html" class="hover:underline">Commite</a></h2>
+            </aside>
+    
+            <section class="bg-blue-100 rounded-lg p-5 shadow-md w-full lg:w-3/4">
+                <h2 class="text-blue-900 text-2xl font-bold mb-6">Pengurus NHKBP Srengseng Sawah</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    
+                    <div class="text-center">
+                        <img src="ketua.jpg" alt="Ketua" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Ketua</h3>
+                        <p>Lukas Febbri Andreas</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="sekretaris.jpg" alt="Sekretaris" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Sekretaris</h3>
+                        <p>Lestari Naomi Aritonang</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="bendahara.jpg" alt="Bendahara" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Bendahara</h3>
+                        <p>Chintya Thumbelina</p>
+                    </div>
+    
+                    <!-- Add remaining committee members here with similar structure -->
+                    <div class="text-center">
+                        <img src="acara-ketua.jpg" alt="Ketua Divisi Acara dan Ibadah" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Ketua Divisi Acara dan Ibadah</h3>
+                        <p>Naika Nainggolan</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="acara_anggota.JPG" alt="Anggota Divisi Acara dan Ibadah" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Anggota Divisi Acara dan Ibadah</h3>
+                        <p>Cecilia</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="koor-ketua.jpg" alt="Ketua Divisi Koor" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Ketua Divisi Koor</h3>
+                        <p>Siska Manurung</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="koor-anggota1.jpg" alt="Anggota Divisi Koor" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Anggota Divisi Koor</h3>
+                        <p>Angelica Sialagan</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="koor-anggota2.jpg" alt="Anggota Divisi Koor" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Anggota Divisi Koor</h3>
+                        <p>Irene Nababan</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="hpd-ketua.jpg" alt="Ketua HPD" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Ketua Divisi HPD</h3>
+                        <p>Fani Sialagan</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="hpd-anggota.jpg" alt="Anggota Divisi HPD" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Anggota Divisi HPD</h3>
+                        <p>Ariel Manulang</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="olahraga-ketua.jpg" alt="Ketua Divisi Olahraga" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Ketua Divisi Olahraga</h3>
+                        <p>Audy Roland Nababan</p>
+                    </div>
+    
+                    <div class="text-center">
+                        <img src="olahraga-anggota.jpg" alt="Anggota Divisi Olahraga" class="w-40 h-40 mx-auto rounded-lg shadow-lg mb-3 object-cover">
+                        <h3 class="text-xl font-semibold">Anggota Divisi Olahraga</h3>
+                        <p>Immanuel Hutagalung</p>
+                    </div>
+    
+                </div>
+            </section>
+        </main>
+
+    <footer class="bg-blue-900 text-white text-center py-4 border-t-4 border-blue-600 mt-8">
+        <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+    </footer>
+</body>
+</html>

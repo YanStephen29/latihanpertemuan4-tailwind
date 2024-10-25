@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script>
+                tailwind.config = {
+                theme: {
+                    extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                    }
+                }
+                }
+            </script>
+            <style type="text/tailwindcss">
+                @layer utilities {
+                .content-auto {
+                    content-visibility: auto;
+                }
+                }
+            </style>
+            <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+    <header class="bg-blue-900 text-white py-4 border-b-4 border-blue-400">
+        <div class="flex justify-center items-center space-x-4">
+            <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 rounded-full shadow-md">
+            <h1 class="text-2xl font-semibold tracking-wider">Naposo HKBP Srengseng Sawah</h1>
+        </div>
+        <nav class="mt-4">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="text-white px-3 py-1 rounded hover:bg-blue-400">Home</a></li>
+                <li><a href="about.html" class="text-white px-3 py-1 rounded hover:bg-blue-400">About</a></li>
+                <li><a href="contact.html" class="text-white px-3 py-1 rounded hover:bg-blue-400">Contact</a></li>
+                <li><a href="join.html" class="text-white px-3 py-1 rounded hover:bg-blue-400">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex flex-col md:flex-row max-w-5xl mx-auto my-10 px-4 space-y-6 md:space-y-0 md:space-x-8">
+        <aside class="w-full md:w-1/4 bg-gray-100 rounded-lg shadow-md p-6">
+            <h2 class="text-blue-900 text-xl font-semibold mb-4">Event Mingguan</h2>
+            <ul class="space-y-3">
+                <li><a href="ibadah-minggu.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Ibadah Minggu</a></li>
+                <li><a href="latihan-paduan-suara.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Paduan Suara</a></li>
+                <li><a href="badminton.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Badminton</a></li>
+            </ul>
+
+            <h2 class="text-blue-900 text-xl font-semibold mt-8 mb-4">Event Tahunan</h2>
+            <ul class="space-y-3">
+                <li><a href="retreat.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Retreat</a></li>
+                <li><a href="perayaan-natal.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Perayaan Natal</a></li>
+                <li><a href="kebaktian-padang.html" class="text-gray-800 hover:bg-blue-400 hover:text-white px-3 py-1 rounded block">Kebaktian Padang</a></li>
+            </ul>
+
+            <h2 class="text-blue-900 text-xl font-semibold mt-8"><a href="commite.html" class="hover:underline">Commite</a></h2>
+        </aside>
+
+        <section class="w-full md:w-3/4 bg-blue-50 rounded-lg shadow-md p-6">
+            <h2 class="text-blue-900 text-2xl font-semibold mb-6">Kebaktian Padang</h2>
+            <img src="kebaktian.JPG" alt="Kebaktian Padang" class="w-full max-w-lg mx-auto rounded-lg shadow-md mb-6">
+            <p class="text-justify leading-relaxed">
+                <b>Kebaktian Padang HKBP Srengseng Sawah</b> adalah sebuah kegiatan ibadah khusus yang dilaksanakan di alam terbuka, mengajak jemaat untuk merasakan kehadiran Tuhan lebih dekat melalui suasana yang natural dan segar. Ibadah ini diadakan di lokasi yang memiliki pemandangan alam yang indah dan damai, memberikan kesempatan bagi jemaat untuk memperbarui iman dan penghayatan spiritual mereka. Melalui Kebaktian Padang, jemaat dapat merasakan kebersamaan yang lebih akrab, sambil terlibat dalam aktivitas ibadah, nyanyian pujian, dan doa bersama. Kegiatan ini juga menjadi sarana untuk mempererat persaudaraan dan membangun relasi yang lebih erat antarjemaat dalam suasana kekeluargaan. Kebaktian Padang tidak hanya menawarkan pengalaman ibadah yang berbeda tetapi juga memberikan kesempatan untuk merefleksikan kebesaran Tuhan dalam ciptaan-Nya, menjadikan ibadah ini sebagai momen yang penuh makna dan berkah bagi seluruh jemaat.
+            </p>
+        </section>  
+    </main>
+
+    <footer class="bg-blue-900 text-white text-center py-4 border-t-4 border-blue-600 mt-8">
+        <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+    </footer>
+</body>
+</html>

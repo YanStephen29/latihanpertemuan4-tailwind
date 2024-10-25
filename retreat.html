@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+        </head>
+        <body class="bg-white text-gray-900">
+            <header class="bg-blue-900 text-white py-6">
+                <div class="container mx-auto flex justify-center items-center space-x-4">
+                    <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 rounded-full shadow-md">
+                    <h1 class="text-3xl font-bold tracking-widest">Naposo HKBP Srengseng Sawah</h1>
+                </div>
+                <nav class="mt-4">
+                    <ul class="flex justify-center space-x-8">
+                        <li><a href="index.html" class="text-white px-4 py-2 rounded hover:bg-blue-500 transition">Home</a></li>
+                        <li><a href="about.html" class="text-white px-4 py-2 rounded hover:bg-blue-500 transition">About</a></li>
+                        <li><a href="contact.html" class="text-white px-4 py-2 rounded hover:bg-blue-500 transition">Contact</a></li>
+                        <li><a href="join.html" class="text-white px-4 py-2 rounded hover:bg-blue-500 transition">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <main class="container mx-auto flex flex-col md:flex-row my-8 space-y-8 md:space-y-0 md:space-x-8">
+
+                <aside class="w-full md:w-1/4 bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h2 class="text-blue-900 text-2xl mb-4">Event Mingguan</h2>
+                    <ul class="space-y-2">
+                        <li><a href="ibadah-minggu.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Ibadah Minggu</a></li>
+                        <li><a href="latihan-paduan-suara.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Paduan Suara</a></li>
+                        <li><a href="badminton.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Badminton</a></li>
+                    </ul>
+                    <h2 class="text-blue-900 text-2xl mt-6 mb-4">Event Tahunan</h2>
+                    <ul class="space-y-2">
+                        <li><a href="retreat.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Retreat</a></li>
+                        <li><a href="perayaan-natal.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Perayaan Natal</a></li>
+                        <li><a href="kebaktian-padang.html" class="text-gray-900 hover:bg-blue-500 hover:text-white block px-4 py-2 rounded transition">Kebaktian Padang</a></li>
+                    </ul>
+                    <h2 class="text-blue-900 text-2xl mt-6"><a href="commite.html" class="hover:underline">Commite</a></h2>
+                </aside>
+        
+                <section class="w-full md:w-3/4 bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h2 class="text-blue-900 text-3xl mb-6">Retreat</h2>
+                    <img src="retreat.JPG" alt="Retreat" class="mx-auto mb-6 rounded-lg shadow-lg">
+                    <p class="mb-6 text-justify leading-relaxed">
+                        <b>Retreat Naposo HKBP Srengseng Sawah</b> adalah kegiatan tahunan yang biasanya diadakan pada bulan Juli. Acara ini dirancang sebagai momen khusus untuk jemaat, terutama kaum muda, guna memperdalam spiritualitas, mempererat hubungan dengan sesama, dan menikmati suasana yang lebih tenang jauh dari rutinitas sehari-hari. Dalam retreat ini, peserta akan mengikuti rangkaian kegiatan seperti sesi ibadah, renungan, diskusi kelompok, dan refleksi diri yang dipandu oleh pembimbing rohani. Tidak hanya kegiatan rohani, retreat juga disertai dengan aktivitas rekreasi dan permainan yang menyenangkan, menciptakan suasana keakraban yang lebih erat di antara peserta. Melalui retreat ini, diharapkan para peserta dapat membawa pulang pengalaman yang menguatkan iman dan memperbaharui semangat pelayanan dalam kehidupan sehari-hari.
+                    </p>
+                </section>
+            </main>
+        
+            <footer class="bg-blue-900 text-white text-center py-4">
+                <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+            </footer>
+        </body>
+        </html>

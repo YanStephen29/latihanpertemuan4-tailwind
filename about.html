@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script>
+                tailwind.config = {
+                theme: {
+                    extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                    }
+                }
+                }
+            </script>
+            <style type="text/tailwindcss">
+                @layer utilities {
+                .content-auto {
+                    content-visibility: auto;
+                }
+                }
+            </style>
+            <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP About Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-white text-gray-800 font-sans leading-relaxed">
+        <header class="bg-blue-900 text-white py-2 border-b-4 border-blue-400 text-center">
+                <div class="flex justify-center items-center">
+                    <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 mr-2 rounded-full shadow-lg">
+                    <h1 class="text-2xl tracking-widest">Naposo HKBP Srengseng Sawah</h1>
+                </div>
+                <nav class="mt-2">
+                    <ul class="flex justify-center space-x-6">
+                        <li><a href="index.html" class="hover:bg-blue-400 rounded px-3 py-1">Home</a></li>
+                        <li><a href="about.html" class="hover:bg-blue-400 rounded px-3 py-1">About</a></li>
+                        <li><a href="contact.html" class="hover:bg-blue-400 rounded px-3 py-1">Contact</a></li>
+                        <li><a href="join.html" class="hover:bg-blue-400 rounded px-3 py-1">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <main class="flex flex-col md:flex-row p-5 max-w-screen-lg mx-auto mt-5 space-y-5 md:space-y-0 md:space-x-5">
+                <aside class="w-full md:w-1/4 bg-gray-100 rounded-lg p-5 shadow-lg">
+                    <h2 class="text-blue-900 mb-3 text-lg">Event Mingguan</h2>
+                    <ul class="space-y-3">
+                        <li><a href="ibadah-minggu.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Ibadah Minggu</a></li>
+                        <li><a href="latihan-paduan-suara.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Paduan Suara</a></li>
+                        <li><a href="badminton.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Badminton</a></li>
+                    </ul>
+        
+                    <h2 class="text-blue-900 mt-6 mb-3 text-lg">Event Tahunan</h2>
+                    <ul class="space-y-3">
+                        <li><a href="retreat.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Retreat</a></li>
+                        <li><a href="perayaan-natal.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Perayaan Natal</a></li>
+                        <li><a href="kebaktian-padang.html" class="hover:bg-blue-400 hover:text-white rounded px-3 py-1">Kebaktian Padang</a></li>
+                    </ul>
+        
+                    <h2 class="text-blue-900 mt-6 text-lg"><a href="commite.html" class="hover:underline">Commite</a></h2>
+                </aside>
+        
+                <section class="w-full md:w-3/4 bg-blue-100 rounded-lg p-6 shadow-lg">
+                    <h2 class="text-blue-900 mb-5 text-2xl">About</h2>
+                    <p class="text-justify">
+                        NHKBP (Nasional HKBP) adalah sebuah organisasi yang terdiri dari pemuda-pemuda Kristiani Batak yang berasal dari berbagai jemaat, baik yang berada di dalam negeri maupun di rantau...
+                    </p>
+                </section>
+            </main>
+        
+            <footer class="bg-blue-900 text-white text-center py-4 border-t-4 border-blue-500 text-sm">
+                <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+            </footer>
+        </body>
+        </html>
+        

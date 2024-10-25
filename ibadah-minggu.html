@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+        </head>
+
+        <body class="bg-white text-gray-900">
+
+            <header class="bg-blue-900 text-white p-6 border-b-4 border-blue-500">
+                <div class="flex justify-center items-center">
+                    <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 rounded-full shadow-lg mr-4">
+                    <h1 class="text-3xl font-bold tracking-wider">Naposo HKBP Srengseng Sawah</h1>
+                </div>
+                <nav class="mt-4">
+                    <ul class="flex justify-center space-x-6">
+                        <li><a href="index.html" class="hover:bg-blue-500 px-4 py-2 rounded transition">Home</a></li>
+                        <li><a href="about.html" class="hover:bg-blue-500 px-4 py-2 rounded transition">About</a></li>
+                        <li><a href="contact.html" class="hover:bg-blue-500 px-4 py-2 rounded transition">Contact</a></li>
+                        <li><a href="join.html" class="hover:bg-blue-500 px-4 py-2 rounded transition">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <main class="container mx-auto flex flex-col md:flex-row my-8 space-y-8 md:space-y-0 md:space-x-8">
+
+                <aside class="w-full md:w-1/4 bg-gray-200 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-blue-900 text-2xl mb-4">Event Mingguan</h2>
+                    <ul class="space-y-2">
+                        <li><a href="ibadah-minggu.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Ibadah Minggu</a></li>
+                        <li><a href="latihan-paduan-suara.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Paduan Suara</a></li>
+                        <li><a href="badminton.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Badminton</a></li>
+                    </ul>
+                    <h2 class="text-blue-900 text-2xl mt-6 mb-4">Event Tahunan</h2>
+                    <ul class="space-y-2">
+                        <li><a href="retreat.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Retreat</a></li>
+                        <li><a href="perayaan-natal.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Perayaan Natal</a></li>
+                        <li><a href="kebaktian-padang.html" class="block text-gray-900 hover:bg-blue-500 hover:text-white px-4 py-2 rounded transition">Kebaktian Padang</a></li>
+                    </ul>
+                    <h2 class="text-blue-900 text-2xl mt-6"><a href="commite.html" class="hover:underline">Commite</a></h2>
+                </aside>
+        
+
+                <section class="w-full md:w-3/4 bg-blue-100 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-blue-900 text-3xl mb-6">Ibadah Minggu</h2>
+                    <img src="ibadah.JPG" alt="Suasana Ibadah" class="w-full max-w-lg mx-auto mb-6 rounded-lg shadow-lg">
+                    <p class="text-justify leading-relaxed">Ibadah Minggu Pemuda di HKBP Srengseng Sawah mengundang para pemuda untuk beribadah dengan konsep yang lebih energik dan intim melalui full music setiap minggu pukul 18:00. Kami mengundang seluruh pemuda, baik dari jemaat sendiri maupun daerah lain, untuk ikut serta.</p>
+                </section>
+            </main>
+        
+            <footer class="bg-blue-900 text-white text-center py-6 border-t-4 border-blue-500 mt-6">
+                <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+            </footer>
+        </body>
+        </html>

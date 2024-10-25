@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHKBP</title>
+        <link rel ="stylesheet" href="styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+        </head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <header class="bg-blue-900 text-white py-4 border-b-4 border-blue-400">
+        <div class="flex justify-center items-center">
+            <img src="logo.png" alt="Logo Gereja" class="w-12 h-12 mr-2 rounded-full shadow-md">
+            <h1 class="text-2xl tracking-wider">Naposo HKBP Srengseng Sawah</h1>
+        </div>
+        <nav class="mt-2">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="text-white hover:bg-blue-400 rounded px-2 py-1">Home</a></li>
+                <li><a href="about.html" class="text-white hover:bg-blue-400 rounded px-2 py-1">About</a></li>
+                <li><a href="contact.html" class="text-white hover:bg-blue-400 rounded px-2 py-1">Contact</a></li>
+                <li><a href="join.html" class="text-white hover:bg-blue-400 rounded px-2 py-1">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex flex-wrap max-w-screen-lg mx-auto p-6 mt-6">
+        <aside class="w-full lg:w-1/4 bg-gray-200 p-4 rounded-lg shadow-lg mb-6 lg:mb-0">
+            <h2 class="text-blue-900 mb-4 text-lg">Event Mingguan</h2>
+            <ul class="space-y-2">
+                <li><a href="ibadah-minggu.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Ibadah Minggu</a></li>
+                <li><a href="latihan-paduan-suara.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Paduan Suara</a></li>
+                <li><a href="badminton.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Badminton</a></li>
+            </ul>
+            <h2 class="text-blue-900 mt-6 mb-4 text-lg">Event Tahunan</h2>
+            <ul class="space-y-2">
+                <li><a href="retreat.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Retreat</a></li>
+                <li><a href="perayaan-natal.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Perayaan Natal</a></li>
+                <li><a href="kebaktian-padang.html" class="hover:bg-blue-400 text-gray-800 hover:text-white px-2 py-1 rounded">Kebaktian Padang</a></li>
+            </ul>
+            <h2 class="text-blue-900 mt-6"><a href="commite.html" class="hover:underline">Commite</a></h2>
+        </aside>
+
+        <section class="w-full lg:w-3/4 bg-blue-50 p-6 rounded-lg shadow-lg">
+            <h2 class="text-blue-900 text-2xl mb-4">HKBP Srengseng Sawah</h2>
+            <img src="church.jpg" alt="Gambar Gereja" class="mx-auto w-full max-w-md rounded-lg shadow-md mb-4">
+            <p class="text-justify leading-relaxed">
+                <b>HKBP Srengseng Sawah</b> adalah sebuah gereja Protestan yang berada di bawah naungan Huria Kristen Batak Protestan (HKBP), sebuah denominasi gereja terbesar di Indonesia, khususnya di kalangan masyarakat Batak. Terletak di wilayah Srengseng Sawah, gereja ini berfungsi sebagai pusat ibadah, pembinaan spiritual, serta kegiatan sosial dan komunitas bagi jemaatnya. Sebagai rumah bagi umat Kristen Batak di area tersebut, HKBP Srengseng Sawah memiliki berbagai program rutin seperti ibadah Minggu, latihan paduan suara, serta doa bersama yang dirancang untuk memperkuat iman dan kebersamaan antaranggota jemaat. Di samping kegiatan mingguan, gereja ini juga mengadakan berbagai acara tahunan seperti retreat, perayaan Natal, dan kebaktian padang yang menjadi momen penting untuk bersekutu dan memperdalam nilai-nilai Kristen. Dengan fokus pada pelayanan dan pengembangan spiritual, HKBP Srengseng Sawah menjadi tempat yang hangat dan mendukung bagi jemaatnya, serta memiliki peran aktif dalam memajukan nilai-nilai kekeluargaan dan kebersamaan di lingkungan sekitarnya.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-white text-center py-4 border-t-4 border-blue-600 mt-6">
+        <p>&copy; 2024 Naposo HKBP Srengseng Sawah. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
